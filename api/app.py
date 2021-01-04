@@ -15,5 +15,5 @@ def get_current_time():
 def test():
     return render_template("test.html")
     
-if __name__ == "__main__":
-    app.run(host="0.0.0.0")
+#if __name__ == "__main__":
+#    app.run(host="0.0.0.0")
