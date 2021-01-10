@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   const [currentTime, setCurrentTime] = useState(0);
   useEffect(()=>{
-    fetch('/api/time').then(res=>res.json()).then(data=>{
+    fetch('http://localhost:5000/api/time').then(res=>res.json()).then(data=>{
       setCurrentTime(data.time)
     });
   },[]);
@@ -24,7 +24,7 @@ function App() {
         >
           Learn React
         </a>
-        <p> The current time is {currentTime}</p>
+        <p> The current exact time is {currentTime}</p>
       </header>
     </div>
   );
