@@ -22,7 +22,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Reacts
+          Learn Reactss
         </a>
         <p> The current exact time is {currentTime}</p>
       </header>
